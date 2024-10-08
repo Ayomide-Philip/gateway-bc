@@ -5,10 +5,21 @@ div.main-container {
     align-items: center;
 }
 
-div.video>iframe {
+div.video {
     width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-div.video {
+video {
     width: 80%;
+}
+
+@media (max-width: 700px) {
+    video {
+        width: 100%;
+    }
 }
