@@ -16,6 +16,7 @@ div.video {
 
 video {
     width: 80%;
+    border: 2px solid black;
 }
 
 @media (max-width: 700px) {
